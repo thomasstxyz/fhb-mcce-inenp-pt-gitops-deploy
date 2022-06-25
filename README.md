@@ -32,3 +32,11 @@ of the [AngularJS Frontend App](https://github.com/thomasstxyz/FHB-MCCE-2022-Tod
 
 Git commits trigger a CI pipeline, which uploads the 
 build artefacts to the S3 bucket as a last step.
+
+# Comments on production use
+
+In a real production use case, it is advisable to either
+bundle the lambda functions with the front end source code,
+or have it in a separate repository,
+depending on if it is the same team and people working
+on the components, or if it is different teams.
