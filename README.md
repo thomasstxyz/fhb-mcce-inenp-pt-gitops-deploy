@@ -37,6 +37,7 @@ build artefacts to the S3 bucket as a last step.
 
 In a real production use case, it is advisable to either
 bundle the lambda functions with the front end source code,
-or have it in a separate repository,
+or have them in a separate repository,
 depending on if it is the same team and people working
 on the components, or if it is different teams.
+
